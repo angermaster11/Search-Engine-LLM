@@ -9,3 +9,5 @@ langchain_text_splitters
 Chromadb
 faiss-cpu
 beautifulsoup4
+arxiv
+wikipedia
