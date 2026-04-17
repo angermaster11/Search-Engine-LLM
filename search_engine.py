@@ -38,8 +38,8 @@ if prompt := st.chat_input("Ask something..."):
     if not api_key:
         st.warning("Please enter API key")
         st.stop()
-
-    llm = ChatOpenAI()
+    
+    llm = ChatOpenAI(api_key=api_key)
 
     tools = [search, wiki, arxiv]
 
