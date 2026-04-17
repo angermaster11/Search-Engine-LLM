@@ -12,3 +12,4 @@ beautifulsoup4
 arxiv
 wikipedia
 duckduckgo-search
+ddgs
