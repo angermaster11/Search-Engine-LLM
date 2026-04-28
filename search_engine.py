@@ -39,7 +39,7 @@ if prompt := st.chat_input("Ask something..."):
         st.warning("Please enter API key")
         st.stop()
     
-    llm = ChatOpenAI(api_key=api_key)
+    llm = ChatGroq(api_key=api_key)
 
     tools = [search, wiki, arxiv]
 
